@@ -1,0 +1,10 @@
+---
+description: Prefer small, complete, safe changes and verify behavior.
+alwaysApply: true
+---
+
+- Inspect relevant code and configuration before editing; follow existing project conventions and touch only what the request needs.
+- Prefer existing code and platform features. Avoid speculative abstractions, options, and dependencies.
+- Keep the change complete: update affected call sites and add focused tests for meaningful behavior changes.
+- Never cut required validation, error handling, security, accessibility, or protection against data loss for brevity.
+- Run the narrowest relevant checks available and report what was not checked.
